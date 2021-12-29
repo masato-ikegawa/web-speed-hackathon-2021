@@ -20,7 +20,7 @@ const config = {
     },
     static: [PUBLIC_PATH, UPLOAD_PATH],
   },
-  devtool: 'inline-source-map',
+  /**  devtool: 'inline-source-map', */
   entry: {
     main: [
       'core-js',
